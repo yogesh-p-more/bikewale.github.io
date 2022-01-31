@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,300&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./assets/images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul class="MenuItems" id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./assets/images/cart.png" width="30px" height="30px">
+                <img src="./assets/images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Drop A Gear <br>And Disappear </h1>
+                    <p>Riding A Bike In A Valley Or Mountain With Friends Is One Of The Great Feelings.<br> Having A
+                        Long
+                        Drive With Your Bike Makes You Feel Cheerful.</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./assets/images/main-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./assets/images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/images/bike-13.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-2.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-3.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-4.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/images/bike-5.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-6.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-7.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/bike-8.jpg">
+                <h4>KTM RC 200 modified </h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./assets/images/bike-14.jpg">
+                    <h4>KTM RC 200 modified </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./assets/images/bike-1.jpg">
+                    <h4>KTM RC 200 modified </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./assets/images/bike-11.jpg">
+                    <h4>KTM RC 200 modified </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="./assets/images/bike-12.jpg">
+                    <h4>KTM RC 200 modified </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./assets/images/exclusive-1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Availabel On Redstore</p>
+                    <h1>Ninja h2r</h1>
+                    <small>With top-flight aerodynamics and a supercharged engine, the H2 R is far too awesome to be street legal</small><br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Many of the major players offer a pure-D racetrack hypersport for the public’s consumption, and for Kawasaki</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="./assets/images/user-1.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Many of the major players offer a pure-D racetrack hypersport for the public’s consumption, and for Kawasaki</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <img src="./assets/images/user-2.png">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Many of the major players offer a pure-D racetrack hypersport for the public’s consumption, and for Kawasaki</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-half-star-o"></i>
+                    </div>
+                    <img src="./assets/images/user-3.png">
+                    <h3>Mabel joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./assets/images/hero-png.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="./assets/images/honda-png.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="./assets/images/suzuki-png2.png" >
+                </div>
+                <div class="col-5">
+                    <img src="./assets/images/tvs-png3.jpg" >
+                </div>
+                <div class="col-5">
+                    <img src="./assets/images/bajaj-png2.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App </h3>
+                    <p>Download App For Android and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="./assets/images/play-store.png">
+                        <img src="./assets/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./assets/images/logo-white.png">
+                    <p>In 1817 a German professor, Baron Karl von Drais, created the first two-wheeled bicycle. It was made of wood and had two wheels.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links </h3>
+                     <ul>
+                         <li><a href="https://yogesh-p-more.github.io/yamaha-showroom.github.io/" target="_blank">Showroom  </a></li>
+                         <li><a href="https://www.linkedin.com/in/yogesh-p-more/" target="_blank">Linkedin</a></li>
+                         <li><a href="https://eshop.heromotocorp.com/return-policy" target="_blank"> Return Policy</li></a>
+                         <li>Join Affiliate</li>
+                     </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3> Follow Us </h3>
+                     <ul>
+                         <li>facebook</li>
+                         <li>Linkedin</li>
+                         <li>Instagram</li>
+                         <li>Youtube</li>
+                     </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Created By <span> Mr.Yogesh More</span></p>
+        </div>
+    </div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")    
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+         else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+
+
+
+</body>
+
+</html>
